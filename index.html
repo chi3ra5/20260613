@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="bgimg">
+            <img src="./img/bgimg_blueSky.jpg" alt="bgimg青空" class="blueSky">
+            <p class="head_text">遠い昔から親しまれる<br>日本の伝統料理「おにぎり」<br>丹精込めて作りました。</p>
+        </div>
+        <div class="onigiri_wrap">
+            <img src="./img/img_tenMusu.jpg" alt="天むす" class="onigiri_img">
+            <img src="./img/img_sisitoMIso.jpg" alt="しし唐みそ" class="onigiri_img2">
+            <img src="./img/img_salt01.jpg" alt="塩むずび" class="onigiri_img">
+        </div>
+    <!-- ロゴ -->
+        <img src="./img/logo.png" alt="logo" class="logo">
+
+    </header>
+    <main>
+    <!-- バナー -->
+        <section>
+            <div class="card_wrap">
+                <div class="card">
+                    <img src="./img/img_asariYaki.png" alt="新発売！あさり入り焼きおにぎり" class="card_img1">
+                </div>
+                <div class="card">
+                    <img src="./img/img_salt01.jpg" alt="塩にぎり" class="card_img2"> 
+                    <p class="card_text">並ばずに<br>受け取れます！</p>
+                    <p class="card_text2">モバイルオーダー<br>はじめました</p>
+                </div>
+            </div>
+            <div class="banner_btn">
+                    <img src="./img/cta_btn_pc.png" alt="pc_btn" class="banner_btn_PC">
+                    <img src="./img/cta_btn_sp.png" alt="sp_btn" class="banner_btn_SP">
+            </div>
+        </section>
+
+    <!-- こだわり -->
+        <section id="commit">
+            <div class="commit_wrap">
+                <img src="./img/bgimg_ine.jpg" alt="稲" class="commit_img">
+                <h2 class="commit_h2">こだわり</h2>
+                <div class="commit_text">
+                    <p>
+                        お母さんやお父さんが握ってくれたおにぎり<br>
+                        思い出してみると、何か特別なことをしているわけではないのに、<br>
+                        なぜだか美味しいと感じた思い出はありませんか？<br><br>
+                        ひとにぎりでは、そんな大切な誰かが作ってくれたおにぎりを、<br>
+                        再現できるように手作りにこだわっています。
+                    </p>
+                </div>
+                <img src="./img/img_salt02.jpg" alt="塩ごま握り" class="commit_img_shio">
+            </div>
+        </section>
+
+    <!-- キャンペーン -->
+        <section id="campaign">
+            <img src="./img/img_takana.jpg" alt="高菜" class="onigiri">
+            <div class="cp_text">
+                <p>
+                    ただいま公式Xにて
+                    <span class="textMarker">該当ポストのリポスト＆フォローで</span>
+                    <span class="textRed">１００円割引クーポン</span>が当たる
+                    キャンペーンを実施中！！
+                </p>
+                <img src="./img/x_icon.png" alt="公式X" class="cp_banner">
+            </div>
+        </section>
+
+    <!-- お問い合わせ -->
+        <section id="contact">
+            <div class="contact">
+                <h2>お問い合わせ</h2>
+                <form action="#" method="post">
+                    <dl>
+                        <dt class="form_name">お名前<span style="color: red;">*</span></dt>
+                        <dd><input type="text" name="name" required placeholder="名前を入力"></dd>
+                        <dt class="form_name">メールアドレス<span style="color: red;">*</span></dt>
+                        <dd><input type="text" name="mail" required placeholder="メールアドレスを入力"></dd>
+                        <dt>電話番号</dt>
+                        <dd><input type="tel" name="tel" pattern="[0-9]{9,14}" placeholder="電話番号を入力（任意）"></dd>
+                        <dt class="form_name">お問い合わせ内容<span style="color: red;">*</span></dt>
+                        <dd><textarea name="message" id="message" cols="30" rows="3" required placeholder="お問い合わせ内容をご記入ください"></textarea></dd>
+                    </dl>
+                </form>
+            </div>
+        </section>
+
+    <!-- 店舗情報 -->
+        <section id="shop">
+            <h3>おにぎり屋ひとにぎり</h3>
+            <p>〒000-0000</p>
+            <p>東京都○○区○○1-2-3</p>
+
+
+        </section>
+    </main>
+
+    <!-- ハンバーガーメニュー -->
+        <ul class="hamburger-menu" id="hamburger-menu">
+            <li class="li-text"><a href="index.html"><p>TOP</p></a></li>
+            <li class="li-text"><a href="#commit"><p>こだわり</p></a></li>
+            <li class="li-text"><a href="#campaign"><p>キャンペーン</p></a></li>
+            <li class="li-text"><a href="#contact"><p>お問合せ</p></a></li>
+            <li class="li-text "><a href="#shop"><p>店舗情報</p></a></li>
+        </ul>
+        <nav class="hamburger" id="hamburger">
+            <span class="hamburger_bar"></span>
+            <span class="hamburger_bar"></span>
+            <span class="hamburger_bar"></span>
+        </nav>
+    <footer>
+        <p class="copyright">©Hitonigiri Co.Ltd. 20XX</p>
+        <p class="footer_btn"><a href="index.html">ページTOPへ</a></p>
+
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

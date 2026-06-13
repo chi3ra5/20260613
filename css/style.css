@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+
+}
+.bgimg{
+    width: 100%;
+}
+.blueSky{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 50% 150px;
+    border-bottom-right-radius: 50% 150px;
+    position: absolute;
+}
+.head_text{
+    font-size: 32px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-text-stroke: 2px #fff;
+    paint-order: stroke;
+    padding-top: 150px;
+    line-height: 2;
+}
+
+.onigiri_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 50px;
+    position: relative;
+    top: 100px;
+}
+.onigiri_img2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 50px;
+    position: relative;
+    top: 150px;
+}
+.onigiri_wrap{
+    display: flex;
+    justify-content: center;
+
+}
+.logo{
+    width: 100%;
+    padding-top: 150px;
+}
+.card_wrap{
+    width: 100%;
+    height: 500px;
+    background-color:#1B2E5E;
+    display: flex;
+    padding: 25px;
+    gap: 50px;
+    justify-content: center;
+}
+.card{
+    width: 500px;
+    height: 500px;
+    background-color:#86693d;
+
+    
+}
+
+.card_img1{
+    width: 100%;
+}
+.card_img2{
+    width: 475px;
+    height: 300px;
+    position: absolute;
+    object-fit: none;
+    padding: 12px;
+
+}
+.card_text{
+    width: 90%;
+    font-size: 60px;
+    font-weight: bold;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    -webkit-text-stroke: 2px #fff;
+    paint-order: stroke;
+}
+.card_text2{
+    width: 90%;
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    line-height: 1.4;
+    top: 45%;
+    left: 10%
+}
+
+/* 注文バナーボタン */
+.banner_btn{
+    display: flex;
+    justify-content: center;
+}
+.banner_btn_PC{
+    display: flex;
+    width: 50%;
+    padding: 50px;
+}
+.banner_btn_SP{
+    display: none;
+}
+
+/* こだわり */
+.commit_wrap{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.commit_h2{
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.commit_text{
+    font-size: 28px;
+    position: absolute;
+    top: 35%;
+    /* transform: translateY(-50%); */
+    left: 50%;
+    transform: translateX(-50%);
+}
+.commit_img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    opacity: 50%;
+}
+
+.commit_img_shio{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    right: 50px;
+    bottom: -50px;
+}
+
+/* キャンペーン */
+.onigiri{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.cp_banner{
+    width: 100px;
+
+}
+
+/* お問合せ */
+.contact{
+    text-align: center;
+}
+dl{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+
+}
+dt{
+    width: 40%;
+    padding-bottom: 30px;
+    text-align: end;
+    padding: 20px;
+    background-color: #86693d;
+}
+dd{
+    background-color: #1B2E5E;
+    width: 50%;
+    padding: 20px;
+    text-align: start;
+
+}
+
+ /* ハンバーガーメニューのボタン */
+.hamburger{
+    width: 50px;
+    height: 50px;
+    background-color: #1B2E5E;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+    .hamburger_bar {
+    display: block;
+    width: 70%;
+    height: 2px;
+    position: absolute;
+    background: #fff;
+    }
+.hamburger_bar:nth-child(1) {
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hamburger_bar:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hamburger_bar:nth-child(3) {
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* ハンバーガーメニューのリスト */
+.hamburger-menu{
+    list-style: none;
+    display: none;
+    width: 100%;
+    height:100px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    line-height: 5;
+    /* text-align: center; */
+    font-size: 20px;
+}
+.active{
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.li-text{
+    width: 400px;
+    text-align: center;
+}
+.li-text:hover{
+    background-color: #1B2E5E;
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+}
+
+
+/* フッター */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #86693d;
+    color: #fff;
+    text-align: center;
+}
+.copyright{
+    font-size: 24px;
+}
+.footer_btn{
+    width: 100px;
+    background-color: #1B2E5E;
+    padding: 5px 15px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
